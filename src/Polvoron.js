@@ -1,6 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+/**
+ *  Presentation component
+ *
+ *  Props: None
+ *
+ *  State: None
+ *
+ *  App -> Polvoron
+ *
+ */
+
 function Polvoron() {
   return (
     <div className="Polvoron">

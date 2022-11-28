@@ -1,9 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./VendingMachine.css"
+
+/**
+ *  Renders list of links to different snacks
+ *
+ *  Props: None
+ *
+ *  State: None
+ *
+ *  App -> VendingMachine
+ */
 
 function VendingMachine() {
   return (
     <div className="VendingMachine">
+      <h1>Vending Machine</h1>
       <Link to="/chicharron">
         Chicharron
       </Link>
