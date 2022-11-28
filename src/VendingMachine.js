@@ -1,14 +1,18 @@
-import { Routes, Route } from 'react-router-dom';
-
+import React from "react";
+import { Link } from "react-router-dom";
 
 function VendingMachine() {
   return (
     <div className="VendingMachine">
-      <Routes>
-        <Route path="/chicharron" element={<Chicharron/>} />
-        <Route path="/polvoron" element={<Polvoron/>} />
-        <Route path="/shrimp-chips" element={<ShrimpChips/>} />
-      </Routes>
+      <Link to="/chicharron">
+        Chicharron
+      </Link>
+      <Link to="/polvoron">
+        Polvoron
+      </Link>
+      <Link to="/shrimp-chips">
+        Shrimp Chips
+      </Link>
     </div>
   );
 }
